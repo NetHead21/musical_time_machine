@@ -13,10 +13,10 @@ app = Flask(__name__)
 app.config["SESSION_COOKIE_NAME"] = "Spotify Cookie"
 
 # set the secret key
-app.secret_key = "7dZ#IxkHzM#^4h&mvV*B8$xqL"
-client_id = "3487117391f64ec7b4b995420aa163ec"
-client_secret = "6b0bdc53a26e4b3c9239902aca825e25"
-user_id = 12178113548
+app.secret_key = "your app secret key"
+client_id = "your spotify client id"
+client_secret = "your spotify client secret"
+user_id = "your spotify user id"
 
 # set the key for the token info in the session dictionary
 TOKEN_INFO = "token_info"
